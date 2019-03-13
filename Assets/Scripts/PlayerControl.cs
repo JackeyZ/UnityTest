@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour {
+public class PlayerControl : MonoSingleton<PlayerControl> {
     CharacterController cc;
     public float speed;
 	// Use this for initialization
