@@ -5,8 +5,14 @@ using UnityEngine;
 public class PlayerControl : MonoSingleton<PlayerControl> {
     CharacterController cc;
     public float speed;
-	// Use this for initialization
-	void Start () {
+
+    new void Awake()
+    {
+        base.Awake();
+    }
+
+    // Use this for initialization
+    void Start () {
         cc = gameObject.GetComponent<CharacterController>();
 	}
 	

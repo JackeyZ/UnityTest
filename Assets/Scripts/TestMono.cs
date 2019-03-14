@@ -6,9 +6,9 @@ public class TestMono : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        Debug.LogError(AssetBundleMgr.Instance.name);
-        Debug.LogError(AssetBundleMgr2.Instance.name);
-        Debug.LogError(AssetBundleMgr23.Instance.name);
+        Debug.Log(AssetBundleMgr.Instance.name);
+        Debug.Log(AssetBundleMgr2.Instance.name);
+        Debug.Log(AssetBundleMgr23.Instance.name);
     }
 	
 	// Update is called once per frame
